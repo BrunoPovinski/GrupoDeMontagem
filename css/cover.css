@@ -121,6 +121,16 @@ body {
 
 h3{
   color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+h1{
+    color: white;
+}
+p{
+    color: black;
+    font-weight: bolder;
 }
 /*
  * Footer
