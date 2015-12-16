@@ -13,6 +13,7 @@
   <title>Grupo de Montagem - Oficial</title>
   <!-- Bootstrap core CSS -->
   <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/sticker.css" rel="stylesheet">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
   <!-- Custom styles for this template -->
@@ -43,6 +44,7 @@
         </div> -->
 
         <div class="inner cover">
+          <div class="sticker example-1"></div>
           <h1 class="cover-heading">Grupo de Montagem</h1>
           <p class="lead">O Grupo de Montagem LTDA orgulhosamente apresenta o seu primeiro site oficial. Para acessá-lo clique no botão abaixo,</p>
           <p class="lead">
@@ -67,6 +69,12 @@
     window.jQuery || document.write('<script src="././assets/js/vendor/jquery.min.js"><\/script>')
   </script>
   <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/sticker.js"></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      Sticker.init('.sticker');
+    }
+  </script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="./js/ie10-viewport-bug-workaround.js"></script>
 </body>

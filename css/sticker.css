@@ -1,0 +1,10 @@
+.sticker {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.example-1 .sticker-img {
+  background-image: url(../imgs/sticker.jpg);
+}
